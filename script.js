@@ -172,15 +172,3 @@ ctx3.shadowBlur = 25;
 
 const lerp = (a, b, t) => Math.abs(b - a) > 0.1 ? a + t * (b - a) : b;
 
-function getTarget() {
-  if (targets.length > 0) {
-    const idx = Math.floor(Math.random() * targets.length);
-    let { x, y } = targets[idx];
-    targets.splice(idx, 1);
-
-    x += c2.width / 2 - textWidth / 2;
-    y += c2.height / 2 - fontSize / 2;
-
-    return { x, y };
-  }
-}
