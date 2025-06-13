@@ -107,7 +107,7 @@ let fontSize = 200;
 const rockets = [];
 const shards = [];
 const targets = [];
-const fidelity = 3;
+const fidelity = 3; // Set fidelity to 3 for correct functioning
 let counter = 0;
 c2.width = c3.width = window.innerWidth;
 c2.height = c3.height = window.innerHeight;
